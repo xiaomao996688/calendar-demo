@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    ul,li {
+      list-style: none;
+    }
+    #data {
+      width: 280px;
+      border: 1px solid #000;
+      margin: 20px auto;
+    }
+    #data > p {
+      display: flex;
+    }
+    #data > h5 {
+      text-align: center;
+    }
+    #data > p > span {
+      padding: 0 10px;
+    }
+    #prev,#next {
+      cursor: pointer;
+    }
+    #nain {
+      flex: 1;
+      text-align: center ;
+    }
+    #title > li {
+      float: left;
+      width: 40px;
+      height: 26px;
+      line-height: 26px;
+      text-align: center
+    }
+    #title {
+      overflow: hidden;
+      list-style: none;
+      background-color: #ccc;
+    }
+    #date > li {
+      float: left;
+      width: 34px;
+      height: 34px;
+      margin: 1px 1px;
+      border: 2px solid rgba(0, 0, 0, .8);
+      line-height: 34px;
+      text-align: center;
+      cursor: pointer;
+    }
+    #date > .hover:hover {
+      border: 2px solid red;
+    }
+    .active {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div id="data">
+    <p>
+      <span id="prev">上一个月</span>
+      <span id="nian">2020</span>
+      <span id="next">下一个月</span>
+    </p>
+    <h5 id="yue">5五月</h5>
+    <ui id="title">
+      <li>天</li>
+      <li>一</li>
+      <li>二</li>
+      <li>三</li>
+      <li>四</li>
+      <li>五</li>
+      <li>六</li>
+    </ui>
+    <ul id="date"></ul>
+  </div>
+  <script>
+
+  </script>
+</body>
+</html>
