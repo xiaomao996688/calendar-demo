@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ul,li {
+  list-style: none;
+}
+#data {
+  width: 280px;
+  border: 1px solid #000;
+  margin: 20px auto;
+}
+#data > p {
+  display: flex;
+  justify-content: space-between;
+}
+#data > h5 {
+  text-align: center;
+}
+#data > p > span {
+  padding: 0 10px;
+}
+#prev,#next {
+  cursor: pointer;
+}
+#nain {
+  flex: 1;
+  text-align: center ;
+}
+#title > li {
+  float: left;
+  width: 40px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center
+}
+#title {
+  overflow: hidden;
+  list-style: none;
+  background-color: #ccc;
+}
+#date > li {
+  float: left;
+  width: 34px;
+  height: 34px;
+  margin: 1px 1px;
+  border: 2px solid rgba(0, 0, 0, .8);
+  line-height: 34px;
+  text-align: center;
+  cursor: pointer;
+}
+#date > .hover:hover {
+  border: 2px solid red;
+}
+.active {
+  color: red;
+}
